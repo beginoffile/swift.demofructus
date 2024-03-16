@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05183BA22BA514A9001064D1 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05183BA12BA514A9001064D1 /* StartButtonView.swift */; };
+		05183BA42BA519C9001064D1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05183BA32BA519C9001064D1 /* OnboardingView.swift */; };
 		05B274A52BA3C74F0027962D /* DemoFructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B274A42BA3C74F0027962D /* DemoFructusApp.swift */; };
 		05B274A72BA3C74F0027962D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B274A62BA3C74F0027962D /* ContentView.swift */; };
 		05B274A92BA3C7510027962D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B274A82BA3C7510027962D /* Assets.xcassets */; };
 		05B274AC2BA3C7510027962D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B274AB2BA3C7510027962D /* Preview Assets.xcassets */; };
+		05B274B52BA3CD470027962D /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B274B42BA3CD470027962D /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05183BA12BA514A9001064D1 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		05183BA32BA519C9001064D1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		05B274A12BA3C74F0027962D /* DemoFructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B274A42BA3C74F0027962D /* DemoFructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFructusApp.swift; sourceTree = "<group>"; };
 		05B274A62BA3C74F0027962D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05B274A82BA3C7510027962D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05B274AB2BA3C7510027962D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05B274B42BA3CD470027962D /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,8 @@
 		05B274A32BA3C74F0027962D /* DemoFructus */ = {
 			isa = PBXGroup;
 			children = (
-				05B274A42BA3C74F0027962D /* DemoFructusApp.swift */,
-				05B274A62BA3C74F0027962D /* ContentView.swift */,
+				05B274B32BA3CD100027962D /* View */,
+				05B274B22BA3CCE00027962D /* App */,
 				05B274A82BA3C7510027962D /* Assets.xcassets */,
 				05B274AA2BA3C7510027962D /* Preview Content */,
 			);
@@ -65,6 +71,25 @@
 				05B274AB2BA3C7510027962D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05B274B22BA3CCE00027962D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				05B274A42BA3C74F0027962D /* DemoFructusApp.swift */,
+				05B274A62BA3C74F0027962D /* ContentView.swift */,
+				05183BA32BA519C9001064D1 /* OnboardingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		05B274B32BA3CD100027962D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05B274B42BA3CD470027962D /* FruitCardView.swift */,
+				05183BA12BA514A9001064D1 /* StartButtonView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B274B52BA3CD470027962D /* FruitCardView.swift in Sources */,
+				05183BA22BA514A9001064D1 /* StartButtonView.swift in Sources */,
 				05B274A72BA3C74F0027962D /* ContentView.swift in Sources */,
+				05183BA42BA519C9001064D1 /* OnboardingView.swift in Sources */,
 				05B274A52BA3C74F0027962D /* DemoFructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
