@@ -40,6 +40,7 @@ struct ContentView: View {
          
         
         } //: NAVIGATON
+        .navigationViewStyle(StackNavigationViewStyle())
         
     }
 }

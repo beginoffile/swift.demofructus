@@ -11,6 +11,8 @@ import SwiftUI
 struct DemoFructusApp: App {
     
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
+
+   
     
     var body: some Scene {
         WindowGroup {

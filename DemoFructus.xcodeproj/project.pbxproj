@@ -23,6 +23,7 @@
 		05BF11182BA634450011332D /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF11172BA634450011332D /* FruitNutrientsView.swift */; };
 		05BF111A2BA63B6A0011332D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF11192BA63B6A0011332D /* SettingsView.swift */; };
 		05BF111C2BA6430C0011332D /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF111B2BA6430C0011332D /* SettingsLabelView.swift */; };
+		05BF111E2BA646F10011332D /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF111D2BA646F10011332D /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		05BF11172BA634450011332D /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		05BF11192BA63B6A0011332D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		05BF111B2BA6430C0011332D /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		05BF111D2BA646F10011332D /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				05BF11152BA631310011332D /* SourceLinkView.swift */,
 				05BF11172BA634450011332D /* FruitNutrientsView.swift */,
 				05BF111B2BA6430C0011332D /* SettingsLabelView.swift */,
+				05BF111D2BA646F10011332D /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				059F54E62BA5210B00C46CD8 /* FruitModel.swift in Sources */,
 				05B274A52BA3C74F0027962D /* DemoFructusApp.swift in Sources */,
 				05BF111A2BA63B6A0011332D /* SettingsView.swift in Sources */,
+				05BF111E2BA646F10011332D /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +363,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +392,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
